@@ -1,4 +1,4 @@
-# Ex-11 - Elliptic Curve Cryptography (ECC)**
+# Ex-11 - Elliptic Curve Cryptography (ECC)
 
 ## Date:
 
