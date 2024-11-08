@@ -14,7 +14,7 @@ To implement the Elliptic Curve Cryptography (ECC) algorithm for secure key gene
 
 <br>
 
-## DESIGN STEPS:
+## ALGORITHM:
 
 <br>
 
