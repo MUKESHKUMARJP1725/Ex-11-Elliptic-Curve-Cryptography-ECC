@@ -26,15 +26,15 @@ Step 2: Each party (Alice and Bob) selects a private key.
 
 <br>
 
-Step 3: Alice computes her public key: `A = d_A X G`, where:
-   - `d_A` is Alice's private key,
-   - `A` is Alice's public key.
+Step 3: Alice computes her public key: A = $$d_A$$ X G, where:
+   - $$d_A$$ is Alice's private key,
+   - A is Alice's public key.
 
 <br>
 
-Step 4: Bob computes his public key: `B = d_B X G`, where:
-   - `d_B` is Bob's private key,
-   - `B` is Bob's public key.
+Step 4: Bob computes his public key: B = $$d_B$$ X G, where:
+   - $$d_B$$ is Bob's private key,
+   - B is Bob's public key.
 
 <br>
 
@@ -42,11 +42,11 @@ Step 5: Alice and Bob exchange their public keys `A` and `B`.
 
 <br>
 
-Step 6: Alice computes the shared secret: `S = d_A X B`.
+Step 6: Alice computes the shared secret: S = $$d_A$$ X B.
 
 <br>
 
-Step 7: Bob computes the shared secret: `S = d_B X A`.
+Step 7: Bob computes the shared secret: S = $$d_B$$ X A.
 
 <br>
 
