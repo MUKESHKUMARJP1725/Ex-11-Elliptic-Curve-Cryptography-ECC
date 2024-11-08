@@ -1,26 +1,63 @@
-# Ex-11 - Elliptic Curve Cryptography (ECC)
+# Ex-11 ELLIPTIC CURVE CRYPTOGRAPHY (ECC)
 
-## Date:
+<br>
 
-## Aim:  
+## DATE:
+
+<br>
+
+## AIM:
+
+<br>
+
 To implement the Elliptic Curve Cryptography (ECC) algorithm for secure key generation.
 
-## Algorithm:
+<br>
 
-1. Define the elliptic curve parameters and base point `G`.
-2. Each party (Alice and Bob) selects a private key.
-3. Alice computes her public key: `A = d_A X G`, where:
+## DESIGN STEPS:
+
+<br>
+
+Step 1: Define the elliptic curve parameters and base point `G`.
+
+<br>
+
+Step 2: Each party (Alice and Bob) selects a private key.
+
+<br>
+
+Step 3: Alice computes her public key: `A = d_A X G`, where:
    - `d_A` is Alice's private key,
    - `A` is Alice's public key.
-4. Bob computes his public key: `B = d_B X G`, where:
+
+<br>
+
+Step 4: Bob computes his public key: `B = d_B X G`, where:
    - `d_B` is Bob's private key,
    - `B` is Bob's public key.
-5. Alice and Bob exchange their public keys `A` and `B`.
-6. Alice computes the shared secret: `S = d_A X B`.
-7. Bob computes the shared secret: `S = d_B X A`.
-8. Both Alice and Bob arrive at the same shared secret `S`, which can be used for secure communication.
 
-## Program:
+<br>
+
+Step 5: Alice and Bob exchange their public keys `A` and `B`.
+
+<br>
+
+Step 6: Alice computes the shared secret: `S = d_A X B`.
+
+<br>
+
+Step 7: Bob computes the shared secret: `S = d_B X A`.
+
+<br>
+
+Step 8: Both Alice and Bob arrive at the same shared secret `S`, which can be used for secure communication.
+
+<br>
+
+## PROGRAM:
+
+<br>
+
 ```
 #include <iostream>
 #include <utility>
@@ -107,10 +144,19 @@ int main() {
     return 0;
 }
 ```
-## Output:
+
+<br>
+
+## OUTPUT:
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/b4d42925-a34c-4239-9ccd-b4b0dd61ddd3)
 
-## Result:
+<br>
+
+## RESULT:
+
+<br>
 
 The Elliptic Curve Cryptography (ECC) algorithm is successfully implemented, and both parties (Alice and Bob) arrive at the same shared secret, enabling secure communication.
